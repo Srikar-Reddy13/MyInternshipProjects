@@ -36,5 +36,5 @@ unit1_inp = input("From unit (m, cm, mm, km, ft, in, c, f): ").lower() #Taking i
 unit2_inp = input("To unit (m, cm, mm, km, ft, in, c, f): ").lower() #Taking input of unit2 parameter
 
 result = converter(value, unit1_inp, unit2_inp)
-print(f"Result: {value} {unit1_inp} is equal to {result} {unit2_inp}")  # Displays the final result
+print(f"Result: {value} {unit1_inp} is equal to {result} {unit2_inp}")  # Displays the convertion result
 
